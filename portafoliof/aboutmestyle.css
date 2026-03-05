@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Playfair+Display:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sauce', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+/* Ensure navigation keeps Pixelify Sans */
+nav,
+nav a {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ff2f7f;
+   font-size: 30px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  color: #ff2f7f;
+}
+
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  position: relative;
+}
+
+nav a:hover {
+  color: #ff2f7f;
+}
+
+.cv-btn {
+  background: #ff2f7f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(255, 47, 127, 0.3);
+  animation: infinite;
+}
